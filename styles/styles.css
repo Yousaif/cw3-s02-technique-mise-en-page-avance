@@ -205,15 +205,14 @@ h4
     background-image: url("../images/bg-interet.jpg");
     background-attachment: fixed;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 40px;
+
 
 }
 
 .interet .conteneur
 {
-    margin: 66px 0 82px 0;
+    max-width: 1140px;
 }
 
 .interet h3
@@ -232,7 +231,7 @@ h4
 .interet p
 {
     text-align: center;
-    /*max-width: 1140px;*/
+    max-width: 1140px;
     /*padding: 0 20px;*/
 
 }
@@ -252,7 +251,7 @@ h4
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 
 
 }
@@ -261,10 +260,9 @@ h4
 {
     /*margin: 183.5px 176px;*/
     box-shadow: var(--couleur-ombre);
-    margin: 20px 21px;
-    width: 352px;
-    height: 367px;
-    padding: 0 20px;
+    margin: 20px 0;
+    width: 30%;
+    padding: 20px;
     background: var(--couleur-primaire);
     display: flex;
     justify-content: center;
@@ -276,9 +274,8 @@ h4
 {
     width: 140px;
     height: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
 
 }
 /*---------------------- Citation ----------------------*/
